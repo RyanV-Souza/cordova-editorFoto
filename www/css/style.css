@@ -68,3 +68,45 @@
 
 
 
+.saturacaoImg{
+  width: 43px;
+  margin-left: 4vh;
+  margin-top: 2vh;
+
+}
+#chamarCamera:focus{
+  outline: 0;
+}
+
+.rodapeBotoes{
+  background-color: rgb(98, 0, 238);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  display: inline-flex;
+}
+
+.botaoOpacidade{
+  width: 25%;
+  height: 100%;
+  color: white;
+}
+
+.botaoCinza{
+  width: 25%;
+  height: 100%;
+  color: white;
+}
+
+.botaoSaturacao{
+  width: 25%;
+  height: 100%;
+  color: white;
+}
+
+.botaoDesfoque{
+  width: 25%;
+  height: 100%;
+  color: white;
+}
