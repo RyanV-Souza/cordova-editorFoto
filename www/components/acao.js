@@ -2,7 +2,10 @@
 $(document).ready(function(){
 
   //Div's escondidas no inicio
-  
+  $(".lugarDesfoque").hide();
+  $(".lugarCinza").hide();
+  $(".lugarSaturacao").hide();
+  $(".lugarOpacidade").hide();
 
   $(document).on("click", "#chamarCamera", function(){
   
@@ -30,5 +33,23 @@ $(document).ready(function(){
   }
 
 })
+ $(document).on("change", ".opacidade", function(){
+  
+    $("#myImage").css("filter", "opacity(" + $(this).val() + "%)" );
+  });
 
-});
+  $(document).on("change", ".saturacao", function(){
+    $("#myImage").css("filter", "saturate(" + $(this).val() + ")" );
+  });
+
+  $(document).on("change", ".cinza", function(){
+  
+    $("#myImage").css("filter", "grayscale(" + $(this).val() + "%)" );
+  });
+
+  $(document).on("change", ".desfoque", function(){
+  
+    $("#myImage").css("filter", "blur(" + $(this).val() + "px)" );
+  });
+
+})
