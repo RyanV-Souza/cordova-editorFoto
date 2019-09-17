@@ -16,42 +16,42 @@
 <body>
     <button id="chamarCamera" type="button" style=""> Câmera </button>
     <div id="imagem" >
-      <img id="myImage"> 
+      <img id="myImage" class="vlOpacidade vlSaturacao vlCinza vlDesfoque"> 
     </div>
 
     <div class="lugarOpacidade">
       <label> Opacidade </label>
-      <input type="range" class="opacidade"  value="0" max="100" min="0">
+      <input type="range" class="opacidade slider"  value="0" max="100" min="0">
     </div>
 
     <div class="lugarSaturacao">
       <label> Saturação </label>
-      <input type="range" class="saturacao"  value="0" max="100" min="0">
+      <input type="range" class="saturacao slider"  value="0" max="200" min="0">
     </div>
 
     <div class="lugarCinza">
       <label> Escala de Cinza </label>
-      <input type="range" class="cinza"  value="0" max="100" min="0">
+      <input type="range" class="cinza slider"  value="0" max="100" min="0">
     </div>
 
     <div class="lugarDesfoque">
       <label> Desfoque </label>
-      <input type="range" class="desfoque"  value="0" max="100" min="0">
+      <input type="range" class="desfoque slider"  value="0" max="100" min="0">
     </div>
 
     <div class="rodapeBotoes">
-      <div class="botaoOpacidade">
-          <img src="imagens/opacity.png" class="saturacaoImg"> </img>
-      </div>
-      <div class="botaoSaturacao">
-          <img src="imagens/satura.png" class="saturacaoImg"> </img>
-      </div>
-      <div class="botaoDesfoque">
-          <img src="imagens/blur.png" class="saturacaoImg"> </img>
-      </div>
-      <div class="botaoCinza">
-          <img src="imagens/grayscale.png" class="saturacaoImg"> </img>
-      </div>
+            <div class="botaoOpacidade esconder">
+            <img src="imagens/opacity.png" class="saturacaoImg"> </img>
+            </div>
+            <div class="botaoSaturacao esconder">
+                <img src="imagens/satura.png" class="saturacaoImg"> </img>
+            </div>
+            <div class="botaoDesfoque esconder">
+                <img src="imagens/blur.png" class="saturacaoImg"> </img>
+            </div>
+            <div class="botaoCinza esconder">
+                <img src="imagens/grayscale.png" class="saturacaoImg"> </img>
+            </div>     
     </div>
 
 
